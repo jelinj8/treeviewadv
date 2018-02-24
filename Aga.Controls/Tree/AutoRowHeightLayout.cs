@@ -123,7 +123,7 @@ namespace Aga.Controls.Tree
 		public int GetRowAt(Point point)
 		{
 			int py = point.Y - _treeView.ColumnHeaderHeight;
-			if (py < 0)  // Header column
+			if (py < 0)  // Header row/column
 				return -1; 
 				
 			int y = 0;
